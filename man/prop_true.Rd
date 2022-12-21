@@ -7,7 +7,7 @@
 prop_true(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{either a numerical vector or something coercible into one with TRUE/FALSE data, the default is TRUE is 1 and FALSE is 0.}
 }
 \value{
 Function will return the proportion of x = 1, in decimal form.

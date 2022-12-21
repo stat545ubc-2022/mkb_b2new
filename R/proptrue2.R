@@ -1,7 +1,6 @@
 
 #' Find the proportion of x=1
-#' @param x
-#'
+#' @param x either a numerical vector or something coercible into one with TRUE/FALSE data, the default is TRUE is 1 and FALSE is 0.
 #' @description The prop_true function which finds the proportion of the value x=1 over a list of variables
 #' # inputs:
 #' @returns Function will return the proportion of x = 1, in decimal form.
