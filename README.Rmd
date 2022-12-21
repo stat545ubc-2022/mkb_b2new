@@ -26,7 +26,7 @@ This can be used with numerical values or non-numerical values that can be coerc
 library(testthat)
 
 # Use this to install the package:
-devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-mlbaron1/b2/proptrue")
+devtools::install_github("stat545ubc-2022/mkb_b2new")
 
 ```
 
