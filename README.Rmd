@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+#B-2 Readme
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# proptrue
+
+This package contains the function prop_true() which determines the proportion of a value x=1. 
+This can be used with numerical values or non-numerical values that can be coerced into numerical values such as true/false data (default settings are that true = 1 ).
+
+```{r, include = FALSE}
+
+# Dependencies 
+library(testthat)
+
+# Use this to install the package:
+devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-mlbaron1/b2/proptrue")
+
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem using our function:
+
+```{r example}
+library(proptrue)
+prop_true(x=c(TRUE,FALSE,TRUE))
+prop_true(x=c(1,0,0,0))
+prop_true(x=c(1,2,3))         
+```

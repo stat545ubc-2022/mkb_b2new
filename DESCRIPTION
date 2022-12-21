@@ -1,0 +1,13 @@
+Package: proptrue2
+Title: Proptrue will help you find the proportion where x=1 among other values in a list
+Version: 0.1.0
+Authors@R:person( "Michelle", "Kamigaki-Baron", , "michelle.baron@ubc.ca", role = c("aut", "cre"),
+         comment = c(ORCID = "Y0000-0002-7665-8859"))
+Description: proptrue is a package to help you find the proportion of values where x=1. A function contained within this package is called prop_true(). Using prop_true() we can find the proportion of x=1. This can be used in the case of variables in a list e.g. prop_true(x = c(1, 0)).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.2.3
